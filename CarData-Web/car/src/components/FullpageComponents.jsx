@@ -1,4 +1,6 @@
+// FullpageComponents.jsx
 import ReactFullpage from "@fullpage/react-fullpage";
+import Data from "../components/data";
 
 function Fullpagecomponents(){
 
@@ -28,7 +30,7 @@ function Fullpagecomponents(){
           <div className="section" id="page3-1">
             <p>3 page</p>
           </div>
-          <div className="section">
+          <div className="section" id="page4-1">
             <p>4 page</p>
           </div>
         </ReactFullpage.Wrapper>
