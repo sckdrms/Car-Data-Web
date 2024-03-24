@@ -2,6 +2,8 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import Data from "../components/data";
 
+import '../css/styles.css';
+
 function Fullpagecomponents(){
 
   const onLeave = (origin, destination, direction) => {
@@ -20,7 +22,9 @@ function Fullpagecomponents(){
       render={({ state, fullpageApi }) => (
         <ReactFullpage.Wrapper>
           <div className="section" id="page1-1">
-            <p>1 page</p>
+            <p className="page1-1-text">Team
+              <p>Alpha Circle</p>
+            </p>
           </div>
           <div className="section">
             <div className="slide" id="page2-1"><p>page 2-1</p></div>

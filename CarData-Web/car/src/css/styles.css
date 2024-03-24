@@ -9,22 +9,8 @@ h3 {
   font-weight: 700;
 }
 
-.nav-color{
-  background-color: rgb(0, 62, 91);
-  position: fixed;
-  z-index: 5;
-}
-
-.Navlink{
-  margin: 7px;
-  justify-content: center;
-  text-decoration: none;
-  color: rgb(155, 170, 179);
-}
-
-
 .section{
-  text-align: center;
+  /* text-align: center; */
   font-size: 3em;
   background-size: cover;
   background-repeat: none;
@@ -42,65 +28,45 @@ h3 {
 }
 
 #page2-1{
-  background-image: url("../img/back2.jpg");
+  background-image: url("../img/back2.1.png");
+  text-align: center;
 }
 #page2-2{
-  background-image: url("../img/back2-1.jpg");
-}
-
-#page2-3{
-  background-image: url("../img/back2-1.jpg");
-}
-
-#page3-1{
-  background-image: url("../img/back2-1.jpg");
-}
-
-#page4-1{
-  background-image: url("../img/back2-1.jpg");
-}
-
-.fp-section {
+  background-image: url("../img/back2.2.png");
   text-align: center;
 }
 
-.fp-watermark{
-  display: none;
+#page2-3{
+  background-image: url("../img/back2.2.png");
+  text-align: center;
 }
 
-button {
-  padding: 0.93em 1.87em;
-  background: #35495e;
-  border-radius: 5px;
-  border-color: transparent;
-  display: block;
-  color: #fff;
-  margin: 0 auto;
-  cursor: pointer;
-  font-size: 0.85em;
+#page3-1{
+  background-image: url("../img/back2.2.png");
+  text-align: center;
 }
 
-.actions {
-  list-style-type: none;
-}
-.actions button {
-  padding: 0.93em 1.87em;
-  background: #35495e;
-  border-radius: 5px;
-  border: 0;
-  color: #fff;
-  margin: 7px;
-  font-size: 15px;
-  cursor: pointer;
-  display: inline-block;
-}
-.actions button:hover {
-  background: #fff;
-  color: #35495e;
+#page4-1{
+  background-image: url("../img/back2.3.png");
+  text-align: center;
 }
 
+.fp-section {
+  /* text-align: center; */
+}
 
 .fp-watermark{
   display: none;
 }
 
+.page1-1-text{
+  font-weight: 300;
+  font-size: 3vw;
+  margin-left: 2.5em;
+
+}
+
+.page1-1-text p{
+  font-weight: 900;
+  font-size: 5vw;
+}
